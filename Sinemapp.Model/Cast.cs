@@ -13,7 +13,7 @@ namespace Sinemapp.Model
         public string LastName { get; set; }
         public DateTime? BirthDate { get; set; }
         public Gender? Gender { get; set; }
-        public Guid? CinemaId { get; set; }
-        public virtual Cinema Cinema { get; set; }
+        public Guid? FilmId { get; set; }
+        public virtual Film Film { get; set; }
     }
 }

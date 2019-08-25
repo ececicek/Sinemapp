@@ -8,8 +8,8 @@ namespace Sinemapp.Model
 {
     public class Genre:BaseEntity
     {
-        public string GenreName { get; set; }
-        public Guid? CinemaId { get; set; }
-        public virtual Cinema Cinema { get; set; }
+        public GenreName GenreName { get; set; }
+        public Guid? FilmId { get; set; }
+        public virtual Film Film { get; set; }
     }
 }

@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using Sinemapp.Admin.Models;
+using Sinemapp.Data;
+using Sinemapp.Model;
 
 namespace Sinemapp.Admin
 {

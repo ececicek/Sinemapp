@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Sinemapp.Model
 {
-    public class Cinema:BaseEntity
+    public class Film:BaseEntity
     {
-        public string FilmName { get; set; }
+        public string Name { get; set; }
         public string Rating { get; set; }
         public DateTime RunTime { get; set; }
         public DateTime ReleaseDate { get; set; }

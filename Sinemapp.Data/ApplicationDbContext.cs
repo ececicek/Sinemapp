@@ -21,7 +21,7 @@ namespace Sinemapp.Data
                 return new ApplicationDbContext();
             }
 
-        public virtual DbSet<Cinema> Cinemas { get; set; }
+        public virtual DbSet<Film> Cinemas { get; set; }
         public virtual DbSet<Cast> Casts { get; set; }
         public virtual DbSet<Genre> Genres { get; set; }
         public virtual DbSet<News> Newses { get; set; }
