@@ -16,7 +16,7 @@ namespace Sinemapp.Admin
             cfg.AllowNullCollections = true;
             cfg.AllowNullDestinationValues = true;
 
-        //değişiklik
+       
         }
     }
 }
